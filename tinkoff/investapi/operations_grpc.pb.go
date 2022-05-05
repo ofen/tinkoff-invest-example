@@ -2,7 +2,7 @@
 // versions:
 // - protoc-gen-go-grpc v1.2.0
 // - protoc             v3.6.1
-// source: tinkoff/invest/grpc/operations.proto
+// source: operations.proto
 
 package investapi
 
@@ -293,5 +293,5 @@ var OperationsService_ServiceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "tinkoff/invest/grpc/operations.proto",
+	Metadata: "operations.proto",
 }

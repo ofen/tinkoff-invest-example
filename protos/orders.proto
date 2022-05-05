@@ -9,7 +9,7 @@ option csharp_namespace = "Tinkoff.InvestApi.V1";
 option objc_class_prefix = "TIAPI";
 option php_namespace = "Tinkoff\\Invest\\V1";
 
-import "tinkoff/invest/grpc/common.proto";
+import "common.proto";
 import "google/protobuf/timestamp.proto";
 
 service OrdersStreamService {

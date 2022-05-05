@@ -2,7 +2,7 @@
 // versions:
 // - protoc-gen-go-grpc v1.2.0
 // - protoc             v3.6.1
-// source: tinkoff/invest/grpc/stoporders.proto
+// source: stoporders.proto
 
 package investapi
 
@@ -179,5 +179,5 @@ var StopOrdersService_ServiceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "tinkoff/invest/grpc/stoporders.proto",
+	Metadata: "stoporders.proto",
 }

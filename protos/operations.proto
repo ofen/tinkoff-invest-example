@@ -10,7 +10,7 @@ option objc_class_prefix = "TIAPI";
 option php_namespace = "Tinkoff\\Invest\\V1";
 
 import "google/protobuf/timestamp.proto";
-import "tinkoff/invest/grpc/common.proto";
+import "common.proto";
 
 service OperationsService {/*Сервис предназначен для получения:</br> **1**.  списка операций по счёту;</br> **2**.
                               портфеля по счёту;</br> **3**. позиций ценных бумаг на счёте;</br> **4**.

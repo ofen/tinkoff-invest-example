@@ -1,7 +1,16 @@
 Tinkoff invest API gRPC [go](https://go.dev) example.
 
+## Usage
+```sh
+./tinkoff-invest-example -t your-api-token
+```
+
+## Build
+```sh
+go build .
+```
+
 ## Generate gRPC client
-1. Update [./protos/](./protos/) from https://github.com/Tinkoff/invest-python/tree/main/protos/ (if required)
 1. Install `protoc` version 3 https://grpc.io/docs/protoc-installation/
 1. Install plugins
     ```sh
@@ -11,18 +20,11 @@ Tinkoff invest API gRPC [go](https://go.dev) example.
 1. Generate code
     ```sh
     mkdir -p tinkoff/investapi/ && \
-    protoc --go-grpc_out=tinkoff/investapi/ --go_out=tinkoff/investapi/ --proto_path=protos/ protos/tinkoff/invest/grpc/*.proto
+    protoc --go-grpc_out=tinkoff/investapi/ --go_out=tinkoff/investapi/ --proto_path=protos/ protos/*.proto
     ```
 
-## Build
-```sh
-go build .
-```
-
-## Usage
-```sh
-./tinkoff-invest-example -t your-api-token
-```
+## Update protocol buffer files
+https://github.com/Tinkoff/investAPI/tree/main/src/docs/contracts
 
 ## Documentation
 https://tinkoff.github.io/investAPI/

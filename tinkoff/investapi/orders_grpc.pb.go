@@ -2,7 +2,7 @@
 // versions:
 // - protoc-gen-go-grpc v1.2.0
 // - protoc             v3.6.1
-// source: tinkoff/invest/grpc/orders.proto
+// source: orders.proto
 
 package investapi
 
@@ -130,7 +130,7 @@ var OrdersStreamService_ServiceDesc = grpc.ServiceDesc{
 			ServerStreams: true,
 		},
 	},
-	Metadata: "tinkoff/invest/grpc/orders.proto",
+	Metadata: "orders.proto",
 }
 
 // OrdersServiceClient is the client API for OrdersService service.
@@ -332,5 +332,5 @@ var OrdersService_ServiceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "tinkoff/invest/grpc/orders.proto",
+	Metadata: "orders.proto",
 }

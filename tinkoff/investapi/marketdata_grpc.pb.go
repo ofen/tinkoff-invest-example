@@ -2,7 +2,7 @@
 // versions:
 // - protoc-gen-go-grpc v1.2.0
 // - protoc             v3.6.1
-// source: tinkoff/invest/grpc/marketdata.proto
+// source: marketdata.proto
 
 package investapi
 
@@ -255,7 +255,7 @@ var MarketDataService_ServiceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "tinkoff/invest/grpc/marketdata.proto",
+	Metadata: "marketdata.proto",
 }
 
 // MarketDataStreamServiceClient is the client API for MarketDataStreamService service.
@@ -376,5 +376,5 @@ var MarketDataStreamService_ServiceDesc = grpc.ServiceDesc{
 			ClientStreams: true,
 		},
 	},
-	Metadata: "tinkoff/invest/grpc/marketdata.proto",
+	Metadata: "marketdata.proto",
 }
