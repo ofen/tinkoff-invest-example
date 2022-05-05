@@ -1,4 +1,4 @@
-Tinkoff invest API gRPC [go](https://go.dev) example
+Tinkoff invest API gRPC [go](https://go.dev) example.
 
 ## Generate gRPC client
 1. Update [./protos/](./protos/) from https://github.com/Tinkoff/invest-python/tree/main/protos/ (if required)
