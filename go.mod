@@ -1,4 +1,4 @@
-module github.com/ofen/tinkoff-invest-go
+module github.com/ofen/tinkoff-invest-example
 
 go 1.17
 

@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ofen/tinkoff-invest-go/investapi"
+	"github.com/ofen/tinkoff-invest-example/investapi"
 
 	"golang.org/x/oauth2"
 	"google.golang.org/grpc"

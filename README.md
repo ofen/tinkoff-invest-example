@@ -1,6 +1,7 @@
 Tinkoff invest API gRPC example
 
-## Generate gRPC code
+## Generate gRPC client
+1. Update [./protos/](./protos/) from https://github.com/Tinkoff/invest-python/tree/main/protos/ if required
 1. Install `protoc` version 3 (https://developers.google.com/protocol-buffers)
 1. Install `go` plugin for `protoc`
 ```sh
