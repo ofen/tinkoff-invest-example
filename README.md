@@ -10,8 +10,8 @@ Tinkoff invest API gRPC [go](https://go.dev) example.
     ```
 1. Generate code
     ```sh
-    mkdir -p investapi && \
-    protoc --go-grpc_out=investapi/ --go_out=investapi/ --proto_path=protos/ protos/tinkoff/invest/grpc/*.proto
+    mkdir -p tinkoff/investapi/ && \
+    protoc --go-grpc_out=tinkoff/investapi/ --go_out=tinkoff/investapi/ --proto_path=protos/ protos/tinkoff/invest/grpc/*.proto
     ```
 
 ## Build
