@@ -19,7 +19,10 @@ Tinkoff invest API gRPC [go](https://go.dev) example.
 go build .
 ```
 
-## Usefull links
-- https://grpc.io/docs/languages/go/quickstart/
-- https://github.com/Tinkoff/invest-python
-- https://tinkoff.github.io/investAPI/
+## Usage
+```sh
+./tinkoff-invest-example -t your-api-token
+```
+
+## Documentation
+https://tinkoff.github.io/investAPI/
