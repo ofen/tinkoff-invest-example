@@ -20,7 +20,8 @@ go build .
 1. Generate code
     ```sh
     mkdir -p tinkoff/investapi/ && \
-    protoc --go-grpc_out=tinkoff/investapi/ --go_out=tinkoff/investapi/ --proto_path=protos/ protos/*.proto
+    protoc --go-grpc_out=tinkoff/investapi/ --go_out=tinkoff/investapi/ \
+    --proto_path=protos/ protos/*.proto
     ```
 
 ## Update protocol buffer files
